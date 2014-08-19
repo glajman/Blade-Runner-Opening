@@ -1,41 +1,39 @@
 @font-face {
 	font-family: "BladeRunnerFont";
-	src: url;
+	src: url("https://dl.dropboxusercontent.com/u/49397584/fonts/Goudy-Bookletter-1911/goudy_bookletter_1911.otf");
 }
-
 p {
+	line-height: 190%;
+}
+.main p {
 	text-indent: 1.5em;
-	margin: 0;
-	padding: 0;
+	margin-top: 0.1em;
+	margin-bottom: 0em;
 }
 
 body {
 	background-color: black;
 	color: white;
-	font-size: 35px;
-	font-family: Times;
+	font-size: 50px;
+	font-family: "BladeRunnerFont";
 	margin: 50px 0px;
 	padding: 0px;
 }
 
-.blank {
-	margin: 1000px;
-}
-
 .main {
-	width: 800px;
-	margin:0px auto;
-	padding: 60px;
-
+	width: 1000px;
+	margin-top: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .end {
-	width: 500px;
+	width: 640px;
 	margin:0 auto;
 }
 
 .nexus {
-	font-size: 33px;
+	font-size: 35px;
 }
 
 .replicant {
