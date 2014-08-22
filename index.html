@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="blank">
@@ -11,7 +12,7 @@
 			into the <span class="nexus">NEXUS</span> phase &mdash; a being virtually <br />identical to a human &mdash; known as a <span class="replicant"><em>Replicant.</em></span><br />
 
 			<p>The <span class="nexus">NEXUS 6 </span><em>Replicants</em> were superior<br /> in strength and agility, and atleas equal<br /> in intelligence, to the genetic engineers<br /> who created them.<br /></p>
-			
+
 			<p><em>Replicants</em> were used Off-world as<br /> slave labor,in hazardous exploration and colonization of other planets.<br /></p>
 
 			<p>After a bloody mutiny by a <span class="nexus">NEXUS 6</span> combat team in an Off-world colony, <br /><em>Replicants</em> were declared illegal on earth &mdash; under penalty of death.<br /></p>
@@ -23,5 +24,18 @@
 		<div class="end">
 			<p>This was not called exectution. It was called retirement.</p>
 		</div>
+
+		<div>
+			<p class="title">LOS ANGELES NOVEMBER, 2019</p>
+		</div>
+		
+		<script>
+		$("html").animate({ scrollTop: 3200}, 50000, function() {
+			$(".title").fadeTo(500, 1, function() {
+				$(".title").delay(5000).fadeTo(500, 0);
+			});
+		});
+
+		</script>
 	<body>
 </html>
