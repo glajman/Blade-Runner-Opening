@@ -30,6 +30,16 @@ body {
 .end {
 	width: 640px;
 	margin:0 auto;
+	margin-bottom: 400px;
+}
+
+.title {
+	width: 700px;
+	margin: auto;
+	font-size: 80px;
+	margin-bottom: 350px;
+	opacity: 0;
+
 }
 
 .nexus {
